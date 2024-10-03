@@ -1,0 +1,84 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+h2 {
+    padding-left: 400px;
+    animation-name: h2;
+    animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes h2 {
+        to{
+            transform: rotate(360deg);
+        }
+        
+    }
+
+.gruppe1-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 20px;
+}
+
+.gruppe1-container h1 {
+    margin: 50px;
+   
+    padding: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+
+    from {background-color;}
+    to {background-color: yellow;}
+  }
+
+
+.gruppe1-container img {
+    margin-right: 20px;
+}
+
+
+img{
+    animation-name: spinn;
+    animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinn {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.gruppe2-container {
+    animation-name:hopp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes hopp {
+    from {
+        color: blue
+    }
+    to {
+       color: rgb(217, 0, 255);
+    }
+}
+
+
