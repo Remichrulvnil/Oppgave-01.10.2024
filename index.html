@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Sixtyfour+Convergence&display=swap');
+    </style>
+
+    <style>
+        @import url(endamercss.css);
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<style>
+
+    
+:root{
+            --grønnfarge:#08f123;
+            --rødfarge:#c50d0d;
+            }
+
+    h1 {
+        color: var(--grønnfarge);
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+section {
+    color: var(--rødfarge);
+    --blåfarge: blue;
+    h2 {
+        color: var(--blåfarge);
+    }
+
+}
+
+h3 {
+    color: var(--logo-color);
+    font-family: "Sixtyfour Convergence";
+}
+
+p {
+    font-family: "Edu AU VIC WA NT Dots";
+}
+
+@property --logo-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #d8d505;
+}
+
+
+@keyframes slidein {
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+    }
+
+
+</style>
+<body>
+    
+    <header>
+
+
+    </header>
+
+
+        <main>
+
+            <button>heiheieiehi</button>
+
+            
+
+           
+                <h1>
+                   Skjønner det ikke!
+                </h1>
+                
+                <h2>
+                    <button>dette er utenfor section</h2></button>
+
+                    <h3>
+                        dette er en h3</h3>
+
+
+        
+    <p>    Ymse CSS <br>
+-----------
+-----------
+
+variabler <br>
+
+<section>--noe
+
+    <h2>dette er h2</h2>
+    <p>dette er tekst</p>
+
+
+    * lag en variable som kun er tilgjengelig for de elementene som befinner seg i en  (scope - rekkevidde) <br>
+
+    * lag en variabel som er tilgjengelig for alle elementene på hele html siden  <br>
+    
+    * lag en variabel ved å bruke @property <br>
+
+    (se gjerne https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties <br>
+    for en grundig gjennomgang av bruk av variabler og @properties ) <br>
+</section>
+
+------------------------
+@-rules <br>
+------------------------
+
+@import <br> 
+
+* lag et ekstra css style-sheet "endaMerCss.css" og importer <br>
+
+(https://developer.mozilla.org/en-US/docs/Web/CSS/@import ) <br>
+
+__
+<br>
+@font-face <br>
+
+* importer 3 gøye fonter fra google-fonts, og bruk de på siden din <br>
+
+(https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) <br>
+
+__
+
+@media-queries
+
+Endre retning på en flexbox når skjermbredden blir  liten (tilsvarende en mobiltelefon i portrett-modus) fra retning rad, <br> 
+til retning kolonne. Bestem selv når dette skal inntreffe  <br>
+(Hint: sett et antall pixler, feks width 650px som grense for når endringen skal inntreffe) <br>
+
+Vi skal se mer på @medi-queries i egen leksjon senere. <br>
+
+
+
+------------------------------------------------------b <br>
+
+Animasjon <br>
+
+
+* Få en tekst til å skli inn fra høyre <br>
+
+* Få et bilde til å spinne rundt 360 grader. <br> 
+
+(se leksjon) <br>
+
+* ekstra oppgave: Se om du kan få et element  <br>
+(eks et bilde eller en knapp)  til å bli større vha animasjon når brukeren hovrer musen over... <br>
+
+(se https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale ) <br>
+</p>
+
+
+        </main>
+
+
+        <footer>
+
+
+        </footer>
+
+
+</body>
+</html>
