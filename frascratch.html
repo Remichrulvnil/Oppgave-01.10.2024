@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr 1fr; /* 100px 100px 100px */
+        }
+
+        .item1 {
+            grid-column: span 3;
+            border: 1px red solid;
+        }
+
+        .item2 {
+            grid-row: span 2 ;
+            border: 1px blue solid;
+        }
+        
+    </style>
+</head>
+<body>
+ 
+    <h1>hello</h1>
+
+        <div class="grid">
+            <h1 class="item1">
+            welcome
+            </h1>
+            <p class="item2">
+                Lorem ipsum dolor sit amet.
+            </p>
+            <img src="pumpkin.png" width="100px" alt="">
+            <h2>
+                heihei
+            </h2>
+
+        </div>
+</body>
+</html>
